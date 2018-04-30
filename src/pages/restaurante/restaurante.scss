@@ -1,0 +1,105 @@
+page-restaurante {
+
+    font-weight: 300;
+
+    ion-slide {
+
+        position: relative;
+        background-size: cover;
+
+        h2 {
+            text-align: center;
+            font-size: 2.7rem;
+            background: transparent;
+        }
+
+        h3.platospictoptitle {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(132, 191, 65, .5);
+            color: #FFFFFF;
+            padding: 1rem 1rem 1rem 1rem;
+            font-weight: 400;
+            font-size: 2.0rem;
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        h3.platostoptitle {
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(132, 191, 65, .5);
+            color: #FFFFFF;
+            padding: 1rem 1rem 1rem 1rem;
+            font-weight: 400;
+            font-size: 2.0rem;
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            color: rgba(7, 10, 4, 1);
+            padding: 0.5rem 1rem 0.5rem 1rem;
+            font-weight: 300;
+            font-size: 2.0rem;
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+        }
+
+    }
+
+    .swiper-pagination-bullet {
+        background: rgba(7, 10, 4, 1);
+    }
+
+    .slides-0 {
+        height: inherit
+    }
+
+    .slides-1 {
+        height: inherit
+    }
+
+    .slides-2 {
+        height: inherit
+    }
+
+    .slides-3 {
+        height: inherit
+    }
+    .slides-13 {
+        height: inherit
+    }
+
+    .slides-14 {
+        height: inherit
+    }
+
+    .slides-15 {
+        height: inherit
+    }
+
+    .slides-4 {
+        height: inherit
+    }
+
+    .swiper-slide {
+        height: inherit
+    }
+
+    .swiper-wrapper {
+        height: inherit
+    }
+
+    .swiper-container {
+        height: auto
+    }
+
+    .slide-zoom {
+        margin-bottom: auto;
+    }
+
+}

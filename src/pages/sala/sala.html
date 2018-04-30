@@ -1,0 +1,68 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Sala de Celebraciones</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content no-bounce
+             style="background: url('http://CuevasDeMASAGO.com/img/masago/DSCN5832-crop-lighter.jpg'); background-size: cover">
+
+    <ion-slides [options]="{pager: true}">
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%" src="http://CuevasDeMASAGO.com/img/masago/IMG_5592_2.18p.jpg"
+            alt="Sala de Celebraciones en las Cuevas de MASAG&Oacute; - Uno">
+        </ion-slide>
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%" src="http://CuevasDeMASAGO.com/img/masago/IMG_5593.18p.jpg"
+                 alt="Sala de Celebraciones en las Cuevas de MASAG&Oacute; - Dos">
+        </ion-slide>
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%; margin-bottom: auto"
+                 src="http://CuevasDeMASAGO.com/img/masago/IMG_5594.18p.jpg"
+                 alt="Sala de Celebraciones en las Cuevas de MASAG&Oacute; - Tres">
+        </ion-slide>
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%; margin-bottom: auto"
+                 src="http://CuevasDeMASAGO.com/img/masago/IMG_5594_2.18p.jpg"
+                 alt="Sala de Celebraciones en las Cuevas de MASAG&Oacute; - Cuatro">
+        </ion-slide>
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%; margin-bottom: auto"
+                 src="http://CuevasDeMASAGO.com/img/masago/IMG_5598_2.18p.jpg"
+                 alt="Sala de Celebraciones en las Cuevas de MASAG&Oacute; - Cinco">
+        </ion-slide>
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%; margin-bottom: auto"
+                 src="http://CuevasDeMASAGO.com/img/masago/IMG_5600_2.18p.jpg"
+                 alt="Sala de Celebraciones en las Cuevas de MASAG&Oacute; - Seis">
+        </ion-slide>
+    </ion-slides>
+
+
+
+    <ion-item
+            style="background: url('http://CuevasDeMASAGO.com/img/masago/DSCN5832-crop-lighter.jpg'); background-size: cover">
+        <button ion-button icon-left (click)="goTo_PreviousPage()" clear item-left>
+            <ion-icon name="calendar"></ion-icon>
+            Eventos
+        </button>
+        <button ion-button icon-left (click)="goTo_NextPage()" clear item-right>
+            <ion-icon name="eye"></ion-icon>
+            Miradores
+        </button>
+    </ion-item>
+
+
+</ion-content>
+
+
+

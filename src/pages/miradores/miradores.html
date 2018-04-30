@@ -1,0 +1,55 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Miradores</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content no-bounce
+             style="background: url('http://CuevasDeMASAGO.com/img/masago/DSCN5832-crop-lighter.jpg'); background-size: cover">
+
+    <ion-slides [options]="{pager: true}">
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%" src="http://CuevasDeMASAGO.com/img/masago/IMG_5605.18p.jpg"
+            alt="Miradores a la Hoz y el R&iacute;o J&uacute;car en las Cuevas de MASAG&Oacute; - Una">
+        </ion-slide>
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%" src="http://CuevasDeMASAGO.com/img/masago/IMG_5607.18p.jpg"
+                 alt="Miradores a la Hoz y el R&iacute;o J&uacute;car en las Cuevas de MASAG&Oacute; - Dos">
+        </ion-slide>
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%; margin-bottom: auto"
+                 src="http://CuevasDeMASAGO.com/img/masago/IMG_5608.18p.jpg"
+                 alt="Miradores a la Hoz y el R&iacute;o J&uacute;car en las Cuevas de MASAG&Oacute; - Tres">
+        </ion-slide>
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%; margin-bottom: auto"
+                 src="http://CuevasDeMASAGO.com/img/masago/IMG_5610.18p.jpg"
+                 alt="Miradores a la Hoz y el R&iacute;o J&uacute;car en las Cuevas de MASAG&Oacute; - Cuatro">
+        </ion-slide>
+
+    </ion-slides>
+
+
+
+    <ion-item
+            style="background: url('http://CuevasDeMASAGO.com/img/masago/DSCN5832-crop-lighter.jpg'); background-size: cover">
+        <button ion-button icon-left (click)="goTo_PreviousPage()" clear item-left>
+            <ion-icon name="musical-note"></ion-icon>
+            Sala
+        </button>
+        <button ion-button icon-left (click)="goTo_NextPage()" clear item-right>
+            <ion-icon name="trophy"></ion-icon>
+            Antiguedades
+        </button>
+    </ion-item>
+
+
+</ion-content>
+

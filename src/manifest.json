@@ -1,0 +1,15 @@
+{
+    "name": "Cuevas de MASAGÓ",
+    "short_name": "masagoapp",
+    "start_url": "index.html",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "assets/imgs/MASAGO-Logo-412x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "background_color": "#4e8ef7",
+    "theme_color": "#4e8ef7"
+}

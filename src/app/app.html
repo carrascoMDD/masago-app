@@ -1,0 +1,35 @@
+<ion-menu [content]="content">
+
+    <ion-content>
+
+        <img class="menu-logo" src="assets/img/MASAGO-Logo_M.svg"
+             alt="Logotipo de las Cuevas de MASAG&Oacute;" />
+
+        <ion-list>
+
+            <button menuClose ion-item *ngFor="let menuItem of topMenuItems" (click)="openPage(menuItem)">
+                <ion-icon item-left [name]="menuItem.icon"></ion-icon>
+                {{menuItem.title}}
+            </button>
+
+            <button menuClose ion-item *ngFor="let menuItem of helpMenuItems" (click)="openPage(menuItem)">
+                <ion-icon item-left [name]="menuItem.icon"></ion-icon>
+                {{menuItem.title}}
+            </button>
+
+
+            <button menuClose ion-item *ngFor="let menuItem of appMenuItems" (click)="openPage(menuItem)">
+                <ion-icon item-left [name]="menuItem.icon"></ion-icon>
+                {{menuItem.title}}
+            </button>
+
+        </ion-list>
+
+    </ion-content>
+
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>
+
+

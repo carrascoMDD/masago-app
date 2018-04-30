@@ -1,0 +1,78 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Contacto</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content no-bounce
+             style="background: url('http://CuevasDeMASAGO.com/img/masago/DSCN5832-crop-lighter.jpg'); background-size: cover">
+
+    <h2>Estamos en</h2>
+    <h2>Calle Libertad, 45</h2>
+    <h2>02210 Alcal&aacute; del J&uacute;car</h2>
+    <h2>Albacete España</h2>
+
+    <h2>
+        <a href="tel:967 474 028" target="_blank" ion-item>
+            <ion-icon name="call" item-left></ion-icon>
+            <p>Tel&eacute;fono</p>
+            967 474 028
+        </a>
+    </h2>
+
+    <h2>
+        <a href="tel:967 474 028" target="_blank" ion-item>
+            <ion-icon name="call" item-left></ion-icon>
+            <ion-icon name="logo-whatsapp" item-left></ion-icon>
+            <p>Movil y WhatsApp</p>
+            662 072 704
+        </a>
+    </h2>
+
+    <h2>
+        <a href="https://www.facebook.com/CuevasDeMasago/" target="_blank" ion-item>
+            <ion-icon name="logo-facebook" item-left></ion-icon>
+            <p>Facebook</p>
+            https://www.facebook.com/CuevasDeMasago/
+        </a>
+    </h2>
+
+    <h2>
+        <a href="mailto:Restaurante@CuevasDeMASAGO.com" ion-item>
+            <ion-icon name="mail" item-left></ion-icon>
+            <p>Email</p>
+            Restaurante@CuevasDeMASAGO.com
+        </a>
+    </h2>
+
+    <h2>Horario</h2>
+    <h3>Invierno</h3>
+    <h3>Lunes a Viernes de 11h a 18h</h3>
+    <h3>Fin de semana de 10.30h a 21h</h3>
+    <h2>Verano</h2>
+    <h3>Lunes a Viernes de 10h a 20h</h3>
+    <h3>Fin de semana de 10h a 22h</h3>
+
+
+    <div style="margin-left: auto; margin-right: auto; width:80%; max-width:80%" id="map"></div>
+
+
+
+    <ion-item
+            style="background: url('http://CuevasDeMASAGO.com/img/masago/DSCN5832-crop-lighter.jpg'); background-size: cover">
+        <button ion-button icon-left (click)="goTo_PreviousPage()" clear item-left>
+            <ion-icon name="bookmark"></ion-icon>
+            Bienvenido@s
+        </button>
+        <button ion-button icon-left (click)="goTo_NextPage()" clear item-right>
+            <ion-icon name="restaurant"></ion-icon>
+            Restaurante
+        </button>
+    </ion-item>
+
+
+</ion-content>
+

@@ -1,0 +1,72 @@
+page-welcome {
+
+    font-weight: 300;
+
+    ion-slide {
+
+        position: relative;
+        background-size: cover;
+
+
+
+        h2 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(132, 191, 65, .5);
+            color: #FFFFFF;
+            padding: 12px 12px 12px 12px;
+            font-size: 2.0rem;
+            margin-top: 0;
+        }
+    }
+
+
+    p {
+        text-align: left;
+        color: rgba(7, 10, 4, 1);
+        background: transparent;
+        margin: 3rem 2rem 3rem 1rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        font-weight: 300;
+        font-size: 2.0rem;
+        font-weight: 400;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .swiper-pagination-bullet {
+        background: rgba(132, 191, 65, .8);
+    }
+
+    .slides-0 {
+        height: inherit
+    }
+;
+
+    .slides-1 {
+        height: inherit
+    }
+;
+
+    .swiper-slide {
+        height: inherit
+    }
+;
+
+    .swiper-wrapper {
+        height: inherit
+    }
+;
+
+    .swiper-container {
+        height: auto
+    }
+;
+
+    .slide-zoom {
+        margin-bottom: auto;
+    }
+
+}

@@ -1,0 +1,71 @@
+page-eventos {
+
+    font-weight: 300;
+
+    ion-slide {
+
+        position: relative;
+        background-size: cover;
+
+        h2 {
+            text-align: center;
+            font-size: 2.7rem;
+            background: transparent;
+        }
+
+        p {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(132, 191, 65, .5);
+            color: #FFFFFF;
+            padding: 12px 12px 12px 12px;
+            font-size: 2.0rem;
+            margin-top: 0;
+        }
+
+        h3 {
+            text-align: left;
+            font-size: 2.7rem;
+            background: transparent;
+            margin-left: 1.5em;
+            color: rgba(7, 10, 4, 1);
+        }
+
+        h4 {
+            text-align: left;
+            font-size: 2.2rem;
+            background: transparent;
+            margin-left: 2em;
+            color: rgba(7, 10, 4, 1);
+        }
+
+    }
+
+    .swiper-pagination-bullet {
+        background: rgba(132, 191, 65, .8);
+    }
+
+    .slides-0 {
+        height: inherit
+    }
+
+
+    .swiper-slide {
+        height: inherit
+    }
+
+    .swiper-wrapper {
+        height: inherit
+    }
+
+    .swiper-container {
+        height: auto
+    }
+;
+    .slide-zoom {
+        margin-bottom: auto;
+    }
+
+}

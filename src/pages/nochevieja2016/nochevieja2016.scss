@@ -1,0 +1,104 @@
+page-nochevieja2016 {
+
+    font-weight: 300;
+
+    h1 {
+        text-align: left;
+        font-size: 2.5rem;
+        background: transparent;
+        margin-left: 1em;
+    }
+
+    h2 {
+        text-align: left;
+        font-size: 2.2rem;
+        background: transparent;
+        margin-left: 1.5em;
+    }
+
+    h3 {
+        text-align: left;
+        font-size: 1.7rem;
+        background: transparent;
+        margin-left: 2em;
+    }
+
+    ion-slide {
+
+        position: relative;
+        background-size: cover;
+
+        h1 {
+            text-align: left;
+            font-size: 2.5rem;
+            background: transparent;
+            margin-left: 1em;
+        }
+
+        h2 {
+            text-align: left;
+            font-size: 2.2rem;
+            background: transparent;
+            margin-left: 1.5em;
+        }
+
+        h3 {
+            text-align: left;
+            font-size: 1.7rem;
+            background: transparent;
+            margin-left: 2em;
+        }
+
+        p {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(132, 191, 65, .5);
+            color: #FFFFFF;
+            padding: 12px 12px 12px 12px;
+            font-size: 2.0rem;
+            margin-top: 0;
+        }
+
+    }
+
+    .swiper-pagination-bullet {
+        background: rgba(132, 191, 65, .8);
+    }
+
+    .slides-0 {
+        height: inherit
+    }
+;
+
+    .slides-1 {
+        height: inherit
+    }
+;
+
+    .slides-2 {
+        height: inherit
+    }
+;
+
+    .swiper-slide {
+        height: inherit
+    }
+;
+
+    .swiper-wrapper {
+        height: inherit
+    }
+;
+
+    .swiper-container {
+        height: auto
+    }
+;
+
+    .slide-zoom {
+        margin-bottom: auto;
+    }
+
+}

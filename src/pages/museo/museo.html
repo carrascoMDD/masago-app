@@ -1,0 +1,58 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Museo</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content no-bounce
+             style="background: url('http://CuevasDeMASAGO.com/img/masago/DSCN5832-crop-lighter.jpg'); background-size: cover">
+
+    <ion-slides [options]="{pager: true}">
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%"
+                 src="http://CuevasDeMASAGO.com/img/masago/IMG_5696.18p.jpg"
+            alt="Museo en las Cuevas de MASAG&Oacute;: F&oacute;siles y Numism&aacute;tica">
+        </ion-slide>
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%"
+                 src="http://CuevasDeMASAGO.com/img/masago/IMG_5675.18p.jpg"
+                 alt="Museo en las Cuevas de MASAG&Oacute;: F&oacute;siles: Bellota">
+        </ion-slide>
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%; margin-bottom: auto"
+                 src="http://CuevasDeMASAGO.com/img/masago/IMG_5678.18p.jpg"
+                 alt="Museo en las Cuevas de MASAG&Oacute;: F&oacute;siles: Potamides">
+        </ion-slide>
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%; margin-bottom: auto"
+                 src="http://CuevasDeMASAGO.com/img/masago/IMG_5683.18p.jpg"
+                 alt="Museo en las Cuevas de MASAG&Oacute;: F&oacute;siles: Caracoles">
+        </ion-slide>
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%; margin-bottom: auto"
+                 src="http://CuevasDeMASAGO.com/img/masago/IMG_5676.18p.jpg"
+                 alt="Museo en las Cuevas de MASAG&Oacute;: F&oacute;siles: Rosas del Desierto">
+        </ion-slide>
+
+    </ion-slides>
+
+
+    <ion-item
+            style="background: url('http://CuevasDeMASAGO.com/img/masago/DSCN5832-crop-lighter.jpg'); background-size: cover">
+
+        <button ion-button icon-left (click)="goTo_PreviousPage()" clear item-left>
+            <ion-icon name="trophy"></ion-icon>
+            Antiguedades
+        </button>
+    </ion-item>
+
+</ion-content>
+

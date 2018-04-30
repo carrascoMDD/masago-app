@@ -1,0 +1,63 @@
+page-miradores {
+
+    font-weight: 300;
+
+    ion-slide {
+
+        position: relative;
+        background-size: cover;
+
+        h2 {
+            text-align: center;
+            font-size: 2.7rem;
+            background: transparent;
+        }
+
+        p {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(132, 191, 65, .5);
+            color: #FFFFFF;
+            padding: 12px 12px 12px 12px;
+            font-size: 2.0rem;
+            margin-top: 0;
+        }
+
+    }
+
+    .swiper-pagination-bullet {
+        background: rgba(132, 191, 65, .8);
+    }
+
+    .slides-0 {
+        height: inherit
+    }
+;
+
+    .slides-1 {
+        height: inherit
+    }
+;
+
+    .swiper-slide {
+        height: inherit
+    }
+;
+
+    .swiper-wrapper {
+        height: inherit
+    }
+;
+
+    .swiper-container {
+        height: auto
+    }
+;
+
+    .slide-zoom {
+        margin-bottom: auto;
+    }
+
+}

@@ -1,0 +1,75 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Antiguedades</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content no-bounce
+             style="background: url('http://CuevasDeMASAGO.com/img/masago/DSCN5832-crop-lighter.jpg'); background-size: cover">
+
+    <ion-slides [options]="{pager: true}">
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%" src="http://CuevasDeMASAGO.com/img/masago/IMG_5699.18p.jpg" alt="Antiguedades en Cuevas de MASAG&Oacute;: Casa del labranza tradicional">
+        </ion-slide>
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%" src="http://CuevasDeMASAGO.com/img/masago/IMG_5632.18p.jpg" alt="Antiguedades en Cuevas de MASAG&Oacute;: C&aacute;ntaros esmaltados">
+        </ion-slide>
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%; margin-bottom: auto"
+                 src="http://CuevasDeMASAGO.com/img/masago/IMG_5634.18p.jpg" alt="Antiguedades en Cuevas de MASAG&Oacute;: C&aacute;ntaros de agua">
+        </ion-slide>
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%; margin-bottom: auto"
+                 src="http://CuevasDeMASAGO.com/img/masago/IMG_5636.18p.jpg" alt="Antiguedades en Cuevas de MASAG&Oacute;: Fotograf&iacute;as de antaño">
+        </ion-slide>
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%; margin-bottom: auto"
+                 src="http://CuevasDeMASAGO.com/img/masago/IMG_5662.18p.jpg" alt="Antiguedades en Cuevas de MASAG&Oacute;: Cuadros">
+        </ion-slide>
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%; margin-bottom: auto"
+                 src="http://CuevasDeMASAGO.com/img/masago/IMG_5664.18p.jpg" alt="Antiguedades en Cuevas de MASAG&Oacute;: mas Cuadros">
+        </ion-slide>
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%; margin-bottom: auto"
+                 src="http://CuevasDeMASAGO.com/img/masago/IMG_5667.18p.jpg" alt="Antiguedades en Cuevas de MASAG&Oacute;: Botellas de botica">
+        </ion-slide>
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%; margin-bottom: auto"
+                 src="http://CuevasDeMASAGO.com/img/masago/IMG_5670.18p.jpg" alt="Antiguedades en Cuevas de MASAG&Oacute;: Farol de carburo y Maqueta del Castillo de Alcal&aacute; del J&uacute;car">
+        </ion-slide>
+
+        <ion-slide>
+            <img style="width: 100%; max-width: 100%; margin-bottom: auto"
+                 src="http://CuevasDeMASAGO.com/img/masago/IMG_5673.18p.jpg" alt="Antiguedades en Cuevas de MASAG&Oacute;: otros Cuadros">
+        </ion-slide>
+
+    </ion-slides>
+
+
+    <ion-item
+            style="background: url('http://CuevasDeMASAGO.com/img/masago/DSCN5832-crop-lighter.jpg'); background-size: cover">
+
+        <button ion-button icon-left (click)="goTo_PreviousPage()" clear item-left>
+            <ion-icon name="eye"></ion-icon>
+            Miradores
+        </button>
+        <button ion-button icon-left (click)="goTo_NextPage()" clear item-right>
+            <ion-icon name="medal"></ion-icon>
+            Museo
+        </button>
+    </ion-item>
+
+
+</ion-content>
